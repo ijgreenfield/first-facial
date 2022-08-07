@@ -1,9 +1,11 @@
 html,
-body {
+body, * {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Cadiz Book";
+  width: 100%;
+  color: #35383D;
+  box-sizing: border-box;
 }
 
 a {
@@ -11,9 +13,18 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+h1 {
+  font-family: "Tobias SemiBold";
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+
 
 @media (prefers-color-scheme: dark) {
   html {

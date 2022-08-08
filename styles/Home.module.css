@@ -18,7 +18,7 @@
   background-color: #F2B14E;
   border-radius: 24px;
   overflow: hidden;
-  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .hero .heroImageContainer {
@@ -57,7 +57,22 @@
   border: 1px solid transparent;
 }
 
+.imageGrid {
+  text-align: center;
+}
+
 .slideImage {
   border-radius: 24px;
   overflow: hidden;
+  margin-bottom: 1rem;
 }
+
+/* Footer */
+.footer {
+  background: url('../public/puddle.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  text-align: center;
+}
+/* Footer */

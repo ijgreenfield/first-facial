@@ -16,7 +16,13 @@ a {
 h1 {
   font-family: "Tobias SemiBold";
   font-weight: 400;
+  font-size: 32px;
   margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: "Tobias SemiBold";
+  font-size: 24px;
 }
 
 p {
@@ -24,6 +30,13 @@ p {
   margin-bottom: 1rem;
 }
 
+section {
+  margin-bottom: 2rem;
+}
+
+.swiper-slide {
+  text-align: center;
+}
 
 
 @media (prefers-color-scheme: dark) {

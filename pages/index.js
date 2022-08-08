@@ -52,7 +52,7 @@ export default function Home() {
             </form>
           </div>
         </section>
-        <section>
+        <section className={styles.imageGrid}>
           <div>
             <h1>Our Facial, The Heyday Way</h1>
             <p>Up front, we keep our menu simple—behind the scenes, our estheticians are handcrafting a cocktail of ingredients to meet your skin’s unique needs and goals.</p>
@@ -68,18 +68,42 @@ export default function Home() {
                     layout="responsive"
                   />
                 </div>
-                <h3>Talk to us about your goals.</h3>
+                <h2>Talk to us about your goals.</h2>
               </SwiperSlide>
               <SwiperSlide>
-                <h3>Receive an expert skin analysis.</h3>
+                <div className={styles.slideImage}>
+                  <Image 
+                    src={image1}
+                    layout="responsive"
+                  />
+                </div>
+                <h2>Receive an expert skin analysis.</h2>
               </SwiperSlide>
               <SwiperSlide>
-                <h3>Enjoy a personalized skincare treatment.</h3>
+                <div className={styles.slideImage}>
+                  <Image 
+                    src={image1}
+                    layout="responsive"
+                  />
+                </div>
+                <h2>Enjoy a personalized skincare treatment.</h2>
               </SwiperSlide>
               <SwiperSlide>
-                <h3>Learn how to enhance your daily routine.</h3>
+                <div className={styles.slideImage}>
+                  <Image 
+                    src={image1}
+                    layout="responsive"
+                  />
+                </div>
+                <h2>Learn how to enhance your daily routine.</h2>
               </SwiperSlide>
             </Swiper>
+          </div>
+        </section>
+        <section>
+          <div className={styles.footer}>
+            <h2>Ready to live your Heyday every day?</h2>
+            <button className={styles.button}>Take 50% Off Your First Facial</button>
           </div>
         </section>
       </main>

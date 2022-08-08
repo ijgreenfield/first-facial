@@ -57,7 +57,7 @@ export default function Home() {
             <h1>Our Facial, The Heyday Way</h1>
             <p>Up front, we keep our menu simple—behind the scenes, our estheticians are handcrafting a cocktail of ingredients to meet your skin’s unique needs and goals.</p>
           </div>
-          <div>
+          <div className={styles.mobileSwiper}>
             <Swiper
               pagination
             >
@@ -99,6 +99,40 @@ export default function Home() {
               </SwiperSlide>
             </Swiper>
           </div>
+          <div className={styles.desktopGrid}>
+            <div className={styles.desktopImage}>
+              <Image 
+                src={image1}
+                width={390}
+                height={412}
+              />
+              <h2>Talk to us about your goals.</h2>
+            </div>
+            <div className={styles.desktopImage}>
+              <Image 
+                src={image1}
+                width={390}
+                height={412}
+              />
+              <h2>Receive an expert skin analysis.</h2>
+            </div>
+            <div className={styles.desktopImage}>
+              <Image 
+                src={image1}
+                width={390}
+                height={412}
+              />
+              <h2>Enjoy a personalized skincare treatment.</h2>
+            </div>
+            <div className={styles.desktopImage}>
+              <Image 
+                src={image1}
+                width={390}
+                height={412}
+              />
+              <h2>Learn how to enhance your daily routine.</h2>
+            </div>
+          </div>
         </section>
       </main>
       <footer>
@@ -106,7 +140,7 @@ export default function Home() {
             <h2>Ready to live your Heyday every day?</h2>
             <button className={styles.button}>Take 50% Off Your First Facial</button>
           </div>
-        </footer>
+      </footer>
     </div>
   )
 }

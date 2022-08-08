@@ -1,5 +1,7 @@
 .container {
   background: #F7EBE3;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
@@ -57,11 +59,27 @@
   padding: 0.6875rem 1.875rem 0.625rem;
   border-radius: 6px;
   outline: none !important;
-  border: 1px solid transparent;
+  border: 1px solid #105368;
+  width: max-content;
+  font-family: "Cadiz SemiBold";
+}
+
+.button:hover {
+  background: #fff;
+  color: #105368;
+  cursor: pointer;
 }
 
 .imageGrid {
   text-align: center;
+}
+
+.mobileSwiper {
+  display: block;
+}
+
+.desktopGrid {
+  display: none;
 }
 
 .slideImage {
@@ -77,6 +95,7 @@
   background-repeat: no-repeat;
   padding: 2rem;
   text-align: center;
+  margin-bottom: 3rem;
 }
 /* Footer */
 
@@ -97,5 +116,26 @@
 
   .hero .formContainer {
     padding: 2rem 6rem 2rem 4rem;
+  }
+
+  .mobileSwiper {
+    display: none;
+  }
+
+  .desktopGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .desktopImage {
+    flex-basis: 45%;
+  }
+
+  .footer {
+    width: 60%;
+    margin: 0 auto;
   }
 }

@@ -100,13 +100,13 @@ export default function Home() {
             </Swiper>
           </div>
         </section>
-        <section>
+      </main>
+      <footer>
           <div className={styles.footer}>
             <h2>Ready to live your Heyday every day?</h2>
             <button className={styles.button}>Take 50% Off Your First Facial</button>
           </div>
-        </section>
-      </main>
+        </footer>
     </div>
   )
 }
